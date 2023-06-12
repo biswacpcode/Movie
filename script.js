@@ -1,3 +1,7 @@
+window.onscroll = function () {
+    window.scrollTo(0,0);
+};
+
 function displayAll() {
     
     let name = document.querySelector('.name_ask');
