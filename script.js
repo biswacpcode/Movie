@@ -3,6 +3,7 @@ window.onscroll = function () {
 };
 
 function displayAll() {
+    window.scrollTo(0,0);
     
     let name = document.querySelector('.name_ask');
     name.classList.add('hide');
